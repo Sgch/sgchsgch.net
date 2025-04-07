@@ -1,0 +1,62 @@
+{
+    "$schema": "https://tkytel.github.io/mantela/mantela.schema.json",
+    "version": "0.0.0",
+    "aboutMe": {
+        "identifier": "81c99427-4a30-4364-8b17-fed97f347439",
+        "name": "sgch",
+        "preferredPrefix": ["248", "2048"]
+    },
+    "extensions": [
+        {
+            "extension": "5000",
+            "name": "Main Phone",
+            "type": "phone",
+            "model": "NAKAYO IP-24N-ST101A",
+            "identifier": "8d13cb12-16dd-457b-a18b-7284902d6be4"
+        },
+        {
+            "extension": "3111",
+            "name": "Connection-test service",
+            "type": "information",
+            "identifier": "207e3a78-3862-4b61-813a-bc105e4932ea"
+        }
+    ],
+    "providers": [
+        {
+            "identifier": "3be47f94-3185-4198-ac3d-ca5ccb573cc2",
+            "name": "yude",
+            "prefix": "390",
+            "mantela": "https://www.yude.jp.eu.org/.well-known/mantela.json"
+        },
+        {
+            "identifier": "f5c44210-8cb8-4e87-85a7-df3d3ff951e6",
+            "name": "pepepper",
+            "prefix": "617",
+            "mantela": "https://www.pepepper.net/.well-known/mantela.json"
+        },
+        {
+            "identifier": "bfd57259-4c74-48ce-b1b3-7e816808bf27",
+            "name": "puhitaku",
+            "prefix": "428",
+            "mantela": ""
+        },
+        {
+            "identifier": "46fb2dc7-ee07-435d-9a27-0a7b4d43d3d7",
+            "name": "mcetelo",
+            "prefix": "917",
+            "mantela": "https://meishicafei.github.io/.well-known/mantela.json"
+        },
+        {
+            "identifier": "93b2d256-39c1-4053-bda1-c0643dd40690",
+            "name": "mknetel",
+            "prefix": "510",
+            "mantela": "https://unstable.kusaremkn.com/.well-known/mantela.json"
+        },
+        {
+            "identifier": "47abe85d-fe09-691d-f928-4f75b27a157f",
+            "name": "hedgehog-tokyo",
+            "prefix": "242",
+            "mantela": "https://rainyvillage.jp/mantela/mantela.json"
+        }
+    ]
+}
