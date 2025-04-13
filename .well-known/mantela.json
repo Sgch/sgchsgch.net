@@ -1,6 +1,6 @@
 {
-    "$schema": "https://tkytel.github.io/mantela/mantela.schema.json",
-    "version": "0.0.0",
+    "$schema": "https://tkytel.github.io/mantela/0.1/mantela.schema.json",
+    "version": "0.1.0",
     "aboutMe": {
         "identifier": "81c99427-4a30-4364-8b17-fed97f347439",
         "name": "sgch",
@@ -9,14 +9,14 @@
     "extensions": [
         {
             "extension": "5000",
-            "name": "Main Phone",
+            "name": "Main",
             "type": "phone",
             "model": "NAKAYO IP-24N-ST101A",
             "identifier": "8d13cb12-16dd-457b-a18b-7284902d6be4"
         },
         {
             "extension": "3111",
-            "name": "Connection-test service",
+            "name": "Connection Test",
             "type": "information",
             "identifier": "207e3a78-3862-4b61-813a-bc105e4932ea"
         }
