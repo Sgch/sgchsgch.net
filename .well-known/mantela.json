@@ -4,7 +4,11 @@
     "aboutMe": {
         "identifier": "81c99427-4a30-4364-8b17-fed97f347439",
         "name": "sgch",
-        "preferredPrefix": ["248", "2048"]
+        "preferredPrefix": ["248", "2048"],
+	    "spiUri": [
+		    "sip:sgch-salonpas.taildfdf4.ts.net:5060;transport=udp",
+		    "sip:sgch-salonpas.taildfdf4.ts.net:5060;transport=tcp"
+    	]
     },
     "extensions": [
         {
@@ -19,6 +23,12 @@
             "name": "Connection Test",
             "type": "information",
             "identifier": "207e3a78-3862-4b61-813a-bc105e4932ea"
+        },
+        {
+            "extension": "3112",
+            "name": "1kHz Tone Test",
+            "type": "music",
+            "identifier": "95310192-70f1-4cc5-9e69-637fb3ce8073"
         }
     ],
     "providers": [
@@ -57,6 +67,24 @@
             "name": "hedgehog-tokyo",
             "prefix": "242",
             "mantela": "https://rainyvillage.jp/mantela/mantela.json"
-        }
+        },
+        {
+			"identifier": "8400cd7b-9f20-4d1a-8e2e-fa278b245316",
+			"name": "scura",
+			"prefix": "862",
+			"mantela": "https://scuravr.github.io/.well-known/mantela.json"
+		},
+        {
+			"identifier": "5752ca4c-c828-4946-a8f3-7f8272206f2d",
+			"name": "AmagasakiSHINANO",
+			"prefix": "661",
+			"mantela": "https://da-tenshi.github.io/mantela.json"
+		},
+        {
+			"identifier": "XXX:yank.nvim",
+			"name": "yank.nvim",
+			"prefix": "334",
+			"mantela": ""
+		}
     ]
 }
