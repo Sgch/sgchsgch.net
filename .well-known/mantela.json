@@ -5,9 +5,9 @@
         "identifier": "81c99427-4a30-4364-8b17-fed97f347439",
         "name": "sgch",
         "preferredPrefix": ["248", "2048"],
-	    "spiUri": [
-		    "sip:sgch-salonpas.taildfdf4.ts.net:5060;transport=udp",
-		    "sip:sgch-salonpas.taildfdf4.ts.net:5060;transport=tcp"
+        "sipUri": [
+            "sip:sgch-salonpas.taildfdf4.ts.net:5060;transport=udp",
+            "sip:sgch-salonpas.taildfdf4.ts.net:5060;transport=tcp"
     	]
     },
     "extensions": [
