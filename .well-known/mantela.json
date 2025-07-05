@@ -8,7 +8,8 @@
         "sipUri": [
             "sip:sgch-salonpas.taildfdf4.ts.net:5060;transport=udp",
             "sip:sgch-salonpas.taildfdf4.ts.net:5060;transport=tcp"
-    	]
+    	],
+        "unavailable": true
     },
     "extensions": [
         {
