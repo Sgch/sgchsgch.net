@@ -8,15 +8,14 @@
         "sipUri": [
             "sip:sgch-salonpas.taildfdf4.ts.net:5060;transport=udp",
             "sip:sgch-salonpas.taildfdf4.ts.net:5060;transport=tcp"
-    	],
-        "unavailable": true
+    	]
     },
     "extensions": [
         {
             "extension": "5000",
             "name": "Main",
             "type": "phone",
-            "model": "NAKAYO IP-24N-ST101A",
+            "model": "snom 220",
             "identifier": "8d13cb12-16dd-457b-a18b-7284902d6be4"
         },
         {
